@@ -4,7 +4,7 @@ public class ArmstrongNumber {
 
 	private static  void subMethod() {
 		
-		System.out.println("This Program is to check the given number is ArnStrong Number or not ");
+		System.out.println("This Program is to check the given number is ArmStrong Number or not ");
 		int a = 158;
 		int temp = a;
 		int r ;

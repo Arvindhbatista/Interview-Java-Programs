@@ -10,7 +10,7 @@ public class DuplicatesInAnArray {
 			for (int j = i+1; j < a.length; j++) {
 				
 				if (a[i]== a[j]) {
-					System.out.println("The Duplicate number :"+a[j]);
+					System.out.println("The Duplicate number :"+a[j]+" "+j);
 				}
 			}
 		}

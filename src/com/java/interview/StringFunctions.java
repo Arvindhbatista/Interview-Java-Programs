@@ -9,8 +9,8 @@ public class StringFunctions {
 		boolean e = s.equals(s1);
 		System.out.print("It compare the value present in the string :");
 		System.out.println(e);
-		System.out.println(s1.equals(s1));
-		System.out.print("It compare the menory location : ");
+		System.out.println(s1.equals(s2));
+		System.out.print("It compare the memory location : ");
 		System.out.println(s==s1);
 		System.out.println(s==s2);
 	}

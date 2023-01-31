@@ -16,8 +16,9 @@ public class ArrayFunctions {
 		for (int i = 0; i < a.length; i++) {
 			String str = a[i].toLowerCase();
 			l.add(str);
-			for (int j = 0 + 1; j < l.size(); j++) {
-				if (l.get(i).equals(l.get(j))) {
+			for (int j =0+1; j < l.size(); j++) {
+				String string = l.get(j);
+				if (l.get(i).equals(string)) {
 					index = j;
 
 				}
